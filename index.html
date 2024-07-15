@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaunant</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/7a4b62b0a4.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    
+  <nav>
+    <div class="navigation nav-container container">
+        <div class="logo_container">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="menu">
+            <a href=""><i>Home</i></a>
+            <a href=""><i>About</i></a>
+            <a href=""><i>job</i></a>
+        </div>
+        <div class="burger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</nav>
+         <!-- hero section -->
+        <div class="container hero">
+         
+          <div class="hero-content">
+         <div class="tag">
+          50% OFF ALL PRODUCTS
+         </div>
+         <h1>Enjoy Your Delicious Food</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore facere minima ad reiciendis veniam odio placeat quia eaque ipsum cupiditate, dicta optio doloribus, explicabo sunt.</p>
+         <button class="explore-btn">EXPLORE NOW</button>
+          </div>
+          <div class="hero-image">
+            <img src="hero_image.png" alt="hero section">
+          </div>
+
+        </div>
+
+        <!-- features -->
+        <section class="features container">
+          <div class="feature">
+            <img src="discount.png" alt="discount">
+            <div class="feture-content">
+              <h3>Discount voucher</h3>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, voluptatibus!
+            </div>
+          </div>
+          <div class="feature">
+            <img src="delivery.png" alt="discount">
+            <div class="feture-content">
+              <h3>Free Home delivery</h3>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, voluptatibus!
+            </div>
+          </div>
+          <div class="feature">
+            <img src="fresh.png" alt="discount">
+            <div class="feture-content">
+              <h3>Healthy Food </h3>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, voluptatibus!
+            </div>
+          </div>
+        </section>
+
+        <div class="divider"></div>
+      <div class="food-menu">
+        <div class="tag">Our menu</div>
+        <h1>Explore Our Menu</h1>
+        <div class="grid">
+          <div class="item1">
+            <img class="grid-images" src="grid_image1.png" alt="item1">
+          </div>
+          <div class="item2">
+            <img class="grid-images" src="grid_image2.png" alt="item1">
+          </div>
+          <div class="item3">
+            <img class="grid-images" src="grid_image3.png" alt="item1">
+          </div>
+          <div class="item4">
+            <img class="grid-images" src="grid_image4.png" alt="item1">
+          </div>
+          <div class="item5">
+            <img class="grid-images" src="grid_image5.png" alt="item1">
+          </div>
+          <div class="item6">
+            <img class="grid-images" src="grid_image6.png" alt="item1">
+          </div>
+          <div class="item7">
+            <img class="grid-images" src="grid_image7.png" alt="item1">
+          </div>
+         
+        </div>
+      </div>
+    <!-- footer -->
+<footer>
+    <div class="footer-container container">
+      <div class="footer-logo">
+        <img src="logo.png" alt="logo">
+      </div>
+
+        <div class="link-list">
+           <h2>Main links</h2>
+           <ul>
+            <li>New Order</li>
+            <li>Contact Us</li>
+            <li>News & Blogs</li>
+           </ul>
+        </div>
+        <div class="link-list">
+          <h2>Supports</h2>
+          <ul>
+           <li>About us</li>
+           <li>Privacy Policy</li>
+           <li>Terms & Conditions</li>
+          </ul>
+       </div>
+      <div class="news-letters">
+        <h3>Join Our Newsellers</h3>
+        <input type="email" placeholder="Enter your email">
+      </div>
+      <div class="icon-container">
+         <h3>Follow Us</h3>
+        <div class="icon">
+          <i class="fa fa-facebook"></i></div>
+          <div class="icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></div>
+            <div class="icon">
+              <i class="fa fa-twitter" aria-hidden="true"></i></div>
+              <div class="icon">
+                <i class="fa fa-youtube" aria-hidden="true"></i></div>
+      </div>
+    </div>
+
+</footer>
+
+<script>
+  function toggleMenu() {
+      const menu = document.querySelector('.menu');
+      menu.classList.toggle('active');
+  }
+</script>
+
+</body>
+</html>
